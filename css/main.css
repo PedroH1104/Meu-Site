@@ -1,0 +1,103 @@
+main {    
+    padding: 0 10% 2em 10%;
+    background: linear-gradient(var(--branco) 0%, var(--cinza));	
+}
+
+main h2 {					
+    padding: 1em 0 1em 0   ;
+    font-size: 1.8em;		
+    font-weight: 700;
+}
+
+.main__descricao {
+    font-size: 1.2em;
+    margin-bottom: 0.37em;
+}
+
+main ul li a{
+    text-decoration: none;
+    color: var(--preto);
+}
+
+main ul li a:hover {
+    text-decoration: underline;
+}
+
+/* PROJETOS - MAIN */
+
+.main__conteudo {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+.projetos__titulo { 
+    margin-top: 1em;   
+    font-size: 2.5em;
+    font-weight: 700;        
+}
+
+.lista__botoes {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    margin: 3em 0 1em 0
+}
+
+.botao__projetos {
+    background-color: var(--branco);
+    width: 10%;
+    padding: .5em 2em;
+    margin-right: .5em;
+    font-size: 14px;
+}
+
+.botao__projetos:hover {
+    cursor: pointer;
+}
+
+.conteudos__item {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo__titulo { 
+    font-size: 2em;
+    font-weight: 500;        
+}
+
+.conteudo__descricao {
+    margin: 0 10%;
+}
+
+.conteudo__img {
+    width: 80%;
+    margin: 3em 10% 2em 10%;              
+}
+
+.hide {
+    display: none;
+}
+
+.ativa {
+    background-color: var(--roxo);
+    color: var(--branco);
+}
+
+/* APENAS APLICATIVOS */
+
+.jogo-pong, .jogo-travessia {			 
+	display: inline block;
+	border: 1px solid #000000;	
+    margin: 3em 0 2em 0;		
+}
+
+.pong__div__p {
+    display: flex;      
+}
+
+.pong__p {
+    margin-right: 9em;
+}

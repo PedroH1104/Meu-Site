@@ -1,0 +1,12 @@
+footer {
+    height: 285px;
+    background-color: var(--cinza);
+    border-top: 3px solid var(--preto);
+    text-align: center;
+}
+
+.rodape__img {
+    height: 240px;
+    margin-bottom: 1em;
+}
+
